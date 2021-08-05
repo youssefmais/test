@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="this is an amazing website">
+		<title>Page 2</title>
+	</head>
+	<body>
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Trocchi&display=swap" rel="stylesheet">
+	<style>
+	.green-text {color: green;  font-size:40px; font-family:Lora;}
+	.red-text {color: red; font-size: 30px;}
+	.blue-text {color: blue;  font-size: 40px;font-family:Lobster,monospace;}<!-- if i hide the link of google fonts then the Lobster font will no longer be available and then the system will replace the Lobster by monospace-->
+	</style>
+	<style>
+	h1 {text-align:center; font-size: 100px; font-family: Lora;}
+	h2 {font-size: 50px; font-family: Trocchi;}
+	ol {font-size: 30px;font-family:Lobster, 'Open Sans';} <!-- 'open Sans' will replace Lobster if Lobster is not found -->
+	</style>
+	<style> .silver-background { background-color: silver; } </style>
+	<h1> This is page2 </h1>
+	
+	<h2><a href="index.html"class ="blue-text">Home page</a></h2>
+	<h2><a href="New directory/page3.html"class="red-text">page3</a></h2>
+	<h2><a href="C:\Users\User\Desktop\HTML-youtube\new directory\page4.html"class="red-text">page 4</a></h2>
+	<h2><a href="C:\Users\User\Desktop\HTML-youtube\new directory\input.html" class="red-text">input page</a></h2>
+	<div><a href="video.mp4" style="color: brown;" >Here is my video in turkeya</a></div> <!-- this will take me to another page--><!-- if we use this form it will show the video by clicking on (here is my video..) and we can play the video -->
+	
+	<video src="video.mp4" poster="image2.png" controls height="300">video can't be displayed</video> <!-- this will show me the video in the same page--><!-- if we use this form it will show the video directly in the page (if controls was not written the video will be shown as an image and we can't play it)-->
+	<ul> 
+	<li style="color: green;">Apples</li> 
+	<li class="green-text">Orange</li>  <!-- the class function is stronger than the all style function--><!-- ul {font-size: 10px;} because the class gree-text it will take the font-size of the green-text class-->
+	<li class="blue-text">Banana</li>
+	</ul>
+	<ol class="silver-background">
+	<li>Apples</li>
+	<li>Orange</li>
+	<li>Banana</li>
+	</ol>
+	<ol>
+	<li>Apples<ol><li>type1</li></ol></li>
+	<li>Orange</li>
+	<li>Banana</li>
+	</ol>
+	
+	<dl class="silver-background">
+	<dt>Apples</dt>
+	<dd>-they are red</dd>
+	<dt>Orange</dt>
+	<dd>-they are orange</dd>
+	</dl>
+	
+	</body>
+
+</html>
